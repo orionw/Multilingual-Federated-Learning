@@ -1,0 +1,4 @@
+Method,Setting,En-Fr,En-Ja,Avg_MTNT,En-Fr,Ar-Es,Ru-Zh,Avg_UN
+Centralized,Pretrained,22.8,4.9,13.9,37.4,36.2,22.6,32.1
+IID FL,Pretrained,24.9,4.0,14.5,38.7,37.2,21.4,32.4
+Non-IID FL,Pretrained,16.1,5.9,11.0,38.0,36.9,21.4,32.1

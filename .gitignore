@@ -1,0 +1,12 @@
+simulation_pytorch/data/*
+**/__pycache__/**
+slurm-*
+poetry.lock
+make_wmt_data/europarl-v9.*
+make_wmt_data/split_data/*
+fl_models
+un_corpus
+results/*
+saved_objects/*
+saved_objects*
+*.json

@@ -1,0 +1,28 @@
+[build-system]
+requires = [
+    "poetry==1.1.10",
+]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "MultilingualFederatedNLP"
+version = "0.1.0"
+description = "Federated Learning Multilingual NLP"
+authors = ["Orion Weller, Marc Marone, Vladimir Braverman, Dawn Lawrie, and Benjamin Van Durme"]
+
+[tool.poetry.dependencies]
+python = "~3.7.9"
+numpy = "1.21.2"
+pandas = "1.3.5"
+matplotlib = "3.3.4"
+flwr = {extras = ["simulation"], version = "^0.17.0"}
+# flwr = {extras = ["simulation"], path = "../../", develop = true }  # For development
+torch = "1.7.1"
+torchvision = "0.8.2"
+transformers = "4.12.2"
+datasets = "1.15.1"
+scikit-learn = "1.0.1"
+sentencepiece = "0.1.96"
+sacrebleu = "2.0.0"
+seaborn = "0.9.1"
+gdown = "4.2.2"
